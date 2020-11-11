@@ -1,0 +1,41 @@
+{
+   "@context":"https://schema.org",
+   "@graph":[
+      {
+         "@type":"WebSite",
+         "@id":"https://www.autoadministrables.cl/#website",
+         "url":"https://www.autoadministrables.cl/",
+         "name":"P\u00e1ginas Web en Chile - Crear P\u00e1gina Web",
+         "description":"",
+         "potentialAction":[
+            {
+               "@type":"SearchAction",
+               "target":"https://www.autoadministrables.cl/?s={search_term_string}",
+               "query-input":"required name=search_term_string"
+            }
+         ],
+         "inLanguage":"es"
+      },
+      {
+         "@type":"WebPage",
+         "@id":"https://www.autoadministrables.cl/#webpage",
+         "url":"https://www.autoadministrables.cl/",
+         "name":"P\u00e1ginas Web en Chile - Crear P\u00e1gina Web",
+         "isPartOf":{
+            "@id":"https://www.autoadministrables.cl/#website"
+         },
+         "datePublished":"2019-02-14T15:28:33+00:00",
+         "dateModified":"2020-10-31T22:24:12+00:00",
+         "description":"Creaci\u00f3n de p\u00e1ginas web y tiendas online autoadministrables. Empresa especializada en la creaci\u00f3n de p\u00e1ginas web econ\u00f3micas en Chile.",
+         "inLanguage":"es",
+         "potentialAction":[
+            {
+               "@type":"ReadAction",
+               "target":[
+                  "https://www.autoadministrables.cl/"
+               ]
+            }
+         ]
+      }
+   ]
+}

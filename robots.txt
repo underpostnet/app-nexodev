@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.nexodev.org/sitemap.xml
