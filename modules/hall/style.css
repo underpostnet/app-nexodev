@@ -1,0 +1,45 @@
+
+
+.hall-back {
+
+	width: 100%;
+	height: auto;
+
+}
+
+.sec1, .sec2 {
+
+	width: 100%;
+	background: black;
+
+
+}
+
+.img-logo {
+
+	width: 80%;
+	max-width: 400px;
+	left: 30px;
+	top: 35px;
+
+}
+
+
+.sec1-txt-des {
+
+	width: 80%;
+	height: 200px;
+	background: none;
+	right: 60px;
+	top: 285px;
+
+}
+
+.sec1-txt-mov {
+
+	width: 90%;
+	margin: auto;
+	height: 200px;
+	background: none;
+
+}

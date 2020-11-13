@@ -1,0 +1,55 @@
+
+
+footer {
+
+	background: black;
+	height: 200px;
+
+}
+
+.footer-c1 {
+
+	width: 50%;
+	height: 100%;
+	background: none;
+
+}
+
+.footer-c2 {
+
+	width: 50%;
+	left: 50%;
+	height: 100%;
+	background: none;
+
+}
+
+.git-footer {
+
+	width: 150px;
+	height: auto;
+	filter: invert(100%);
+	transition: .3s;
+
+}
+
+.git-footer:hover {
+
+	width: 160px;
+
+}
+
+.txt-credit {
+
+	 color: white;
+	 transition: .3s;
+	 font-size: 14px;
+
+}
+
+
+.txt-credit:hover {
+
+	font-size: 15px;
+
+}
