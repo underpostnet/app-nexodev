@@ -6,9 +6,9 @@ var mod_hall = {
 
 			<div class='in sec1'>
 
-				<img class='abs hall-back' src='`+path+`/assets/background/2.jpg'>
+				<img class='abs hall-back' src='`+path+`/assets/background.jpg'>
 
-				<img class='abs img-logo' src='`+path+`/assets/mini_logo.gif'>
+				<img class='abs img-logo' src='`+path+`/assets/nexodev_logo.png'>
 
 				<div class='abs sec1-txt-des'>
 
