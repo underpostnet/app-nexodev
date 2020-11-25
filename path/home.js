@@ -20,6 +20,7 @@ s('body').style.background = 'black';
 
 mod_loader.init();
 mod_hall.init();
+mod_icon.init();
 mod_footer.init();
 
 /* -------------------------------------------------------------------------- */
@@ -60,16 +61,43 @@ function rr(){
 			/* --------------------------------- */
 
 
+			if(data.lastW>1000){
+
+				s('.icon-c1').style.width = '25%';
+				s('.icon-c2').style.width = '25%';
+				s('.icon-c3').style.width = '25%';
+				s('.icon-c4').style.width = '25%';
+
+			}else if(data.lastW>600){
+
+				s('.icon-c1').style.width = '50%';
+				s('.icon-c2').style.width = '50%';
+				s('.icon-c3').style.width = '51%';
+				s('.icon-c4').style.width = '49%';
+
+			}else {
+
+				s('.icon-c1').style.width = '100%';
+				s('.icon-c2').style.width = '100%';
+				s('.icon-c3').style.width = '100%';
+				s('.icon-c4').style.width = '100%';
+
+			}
+
+			/* --------------------------------- */
+			/* --------------------------------- */
 
 			if(data.lastW<850){
 
 				s('.sec1-txt-des').style.display = 'none';
-				s('.sec1-txt-mov').style.display = 'block';
+				s('.sec2').style.display = 'block';
+				s('.sec1').style.height = s('.hall-back').clientHeight+'px';
 
 			}else{
 
 				s('.sec1-txt-des').style.display = 'block';
-				s('.sec1-txt-mov').style.display = 'none';
+				s('.sec2').style.display = 'none';
+				s('.sec1').style.height = '100%';
 
 			}
 

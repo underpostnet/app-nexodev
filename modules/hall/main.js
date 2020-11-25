@@ -72,7 +72,7 @@ var mod_hall = {
 	},
 	rr: function(){
 
-		s('.sec1').style.height = s('.hall-back').clientHeight+'px';
+		
 
 	}
 

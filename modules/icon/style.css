@@ -1,0 +1,37 @@
+
+.icon-img-logo  {
+
+  width: 200px;
+  height: auto;
+  filter: invert(100%);
+
+}
+
+
+.pad-icon {
+
+  padding: 5%;
+
+}
+
+.title-icon {
+
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.body-icon-c {
+
+  font-size: 17px;
+
+}
+
+.content-icon-img {
+
+  width: 270px;
+  height: 270px;
+  margin: auto;
+
+}
