@@ -4,75 +4,69 @@ var mod_hall = {
 
 		append('body', `
 
-			<div class='in sec1'>
+			<div class='in hall'>
 
-				<img class='abs hall-back' src='`+path+`/assets/background.jpg'>
+				<img class='abs background-gif' src='`+path+`/assets/background_gif.gif'>
 
-				<img class='abs img-logo' src='`+path+`/assets/nexodev_logo.png'>
+				<div class='abs main-hall'>
 
-				<div class='abs sec1-txt-des'>
+					<br>
 
-					<span style='font-size: 20px;'>
+					<div class='in txt-logo'>
 
-						<br>
+						<img class='inl img-logo' src='`+path+`/assets/nexodev-white-t.png'>
 
-						&nbsp;&nbsp;&nbsp; PARA EMPRENDEDORES
+						<span class='txt-logo-bold'>nexo</span>
 
-						<br> <br>
-
-						<span style='font-size: 30px;'>
-
-							Desarrollo a precisión de aplicaciones web/moviles
-							<br>
-							combinando la potencia de servidores
-							<br><br>
-							&nbsp;&nbsp;&nbsp;<strong class='inl' style='top: -20px;'>NodeJS/Express & PHP/Apache.</strong>
-
-						</span>
-
-					</span>
-
-				</div>
-
-			</div>
-
-			<div class='in sec2' style='height: 200px;'>
-
-				<div class='in sec1-txt-mov'>
-
-					<span style='font-size: 12px;'>
+						dev.org
 
 						<br>
 
-						&nbsp;&nbsp;&nbsp; PARA EMPRENDEDORES
+						<span class='in txt-bajada-logo'>VIRTUAL HOST</span>
 
-						<br> <br>
+					</div>
 
-						<span style='font-size: 16px;'>
+					<div class='in txt-bajada'>
 
-							Desarrollo a precisión de
-							<br>
-							aplicaciones <strong>web/moviles</strong> combinando
-							<br>
-							la potencia de servidores
-							<br><br>
-							&nbsp;&nbsp;&nbsp;<strong class='inl' style='top: -10px;'>NodeJS/Express & PHP/Apache.</strong>
+						Alta Tecnologia al alcance de tus Proyectos.
 
-						</span>
-
-					</span>
+					</div>
 
 				</div>
 
-			</div>
 
+
+			</div>
 
 		`);
 
 	},
-	rr: function(){
+	rr: function(data){
 
-		
+
+		let estandar_css = 400;
+
+    s('.img-logo').style.width = (((data.lastW*60)/estandar_css)+'px');
+		s('.img-logo').style.top = (((data.lastW*15)/estandar_css)+'px');
+		s('.img-logo').style.left = (((data.lastW*8)/estandar_css)+'px');
+
+		s('.txt-logo').style.fontSize = (((data.lastW*30)/estandar_css)+'px');
+		s('.txt-logo-bold').style.fontSize = (((data.lastW*50)/estandar_css)+'px');
+		s('.txt-bajada').style.fontSize = (((data.lastW*15)/estandar_css)+'px');
+		s('.txt-bajada').style.top = ('-'+((data.lastW*22)/estandar_css)+'px');
+		s('.txt-bajada-logo').style.fontSize = (((data.lastW*15)/estandar_css)+'px');
+
+
+		if(data.movil){
+
+			s('.hall').style.height = '30%';
+
+		}else{
+
+			s('.hall').style.height = '100%';
+
+		}
+
 
 	}
 

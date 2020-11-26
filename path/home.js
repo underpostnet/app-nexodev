@@ -14,9 +14,9 @@ s('body').style.color = 'white';
 s('html').style.background = 'black';
 s('body').style.background = 'black';
 
-/* notclick('html', 0, false); */
-/* notclick('html', 1, false); */
-/* notclick('html', 2, false); */
+ notclick('html', 0, false); 
+ notclick('html', 1, false); 
+ notclick('html', 2, false); 
 
 mod_loader.init();
 mod_hall.init();
@@ -34,7 +34,7 @@ function rr(){
 		data.lastW=s('body').clientWidth;
 		data.lastH=s('body').clientHeight;
 
-		if(data.lastH>400&&data.lastW>600){
+		if(data.lastW>500){
 
 			data.movil = false;
 
@@ -54,7 +54,7 @@ function rr(){
 			/* --------------------------------- */
 			/* --------------------------------- */
 
-			mod_hall.rr();
+			mod_hall.rr(data);
 
 
 			/* --------------------------------- */
@@ -81,23 +81,6 @@ function rr(){
 				s('.icon-c2').style.width = '100%';
 				s('.icon-c3').style.width = '100%';
 				s('.icon-c4').style.width = '100%';
-
-			}
-
-			/* --------------------------------- */
-			/* --------------------------------- */
-
-			if(data.lastW<850){
-
-				s('.sec1-txt-des').style.display = 'none';
-				s('.sec2').style.display = 'block';
-				s('.sec1').style.height = s('.hall-back').clientHeight+'px';
-
-			}else{
-
-				s('.sec1-txt-des').style.display = 'block';
-				s('.sec2').style.display = 'none';
-				s('.sec1').style.height = '100%';
 
 			}
 

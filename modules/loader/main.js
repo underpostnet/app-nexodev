@@ -6,7 +6,7 @@ var mod_loader = {
 
 		<loader class='fix'>
 
-				<img class='abs center img-load' src='`+path+`/assets/loading.gif'>
+				<img class='abs center img-load' src='`+path+`/assets/loading2.gif'>
 
 		</loder>
 
