@@ -1,0 +1,57 @@
+
+
+.input-content {
+
+  max-width: 400px;
+
+}
+
+.input-session {
+
+	outline: none !important;
+	border: none;
+
+}
+
+.login-button {
+
+  padding: 5px;
+  text-align: center;
+  background: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  width: 200px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: .2s;
+
+}
+
+.login-button:hover {
+
+  opacity: 1;
+
+}
+
+.error-input {
+
+  background: none;
+  color: black;
+  max-width: 200px;
+  padding: 3px;
+
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}

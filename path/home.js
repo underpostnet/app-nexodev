@@ -14,12 +14,13 @@ s('body').style.color = 'white';
 s('html').style.background = 'black';
 s('body').style.background = 'black';
 
- notclick('html', 0, false); 
- notclick('html', 1, false); 
- notclick('html', 2, false); 
+ notclick('html', 0, false);
+ notclick('html', 1, false);
+ notclick('html', 2, false);
 
 mod_loader.init();
 mod_hall.init();
+/* mod_session.init(); */
 mod_icon.init();
 mod_footer.init();
 
