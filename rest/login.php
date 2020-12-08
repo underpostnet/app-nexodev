@@ -24,13 +24,12 @@ for($i=0;$i<l($data['clientes']);$i++){
       $json_res['state'] = true;
       $json_res['content'] = $data['clientes'][$i];
 
+      session_start();
+      $_SESSION['nexodev-name'] = ''.$json_res['content']['nombre'];
+
   }
 
 }
-
-
-
-
 
 
 //------------------------------------------------------------------------------

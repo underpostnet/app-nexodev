@@ -20,7 +20,7 @@ s('body').style.background = 'black';
 
 mod_loader.init();
 mod_hall.init();
-mod_session.init();
+/* mod_session.init(); */
 mod_icon.init();
 mod_footer.init();
 
