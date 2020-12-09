@@ -2,6 +2,25 @@
 
 
 
+
+
+
+.main-content-session {
+
+  background: white;
+  z-index: 8888;
+  display: none;
+  width: 100%;
+  top: 60px;
+  color: black;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  
+}
+
+
+
 .topBarSession {
 
   background: white;
@@ -43,9 +62,9 @@
 .topBarC2 {
 
   right: 1%;
-  height: 30px;
+  height: 20px;
   border: 2px solid black;
-  top: 50%;
+  top: 75%;
   transform: translate(0, -50%);
   width: 150px;
   color: black;
@@ -55,7 +74,27 @@
 
 .topBarC2:hover {
 
-  background: #ececec;
+  background: #e7e7e7;
+
+}
+
+.topBarC3 {
+
+  right: 1%;
+  height: 20px;
+  border: 2px solid black;
+  top: 25%;
+  transform: translate(0, -50%);
+  width: 150px;
+  color: black;
+  transition: .3s;
+  cursor: pointer;
+
+}
+
+.topBarC3:hover {
+
+  background: #e7e7e7;
 
 }
 
@@ -103,7 +142,7 @@
 
   background: none;
   color: black;
-  max-width: 200px;
+  max-width: 300px;
   padding: 3px;
 
 }

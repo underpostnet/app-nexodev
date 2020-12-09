@@ -14,13 +14,13 @@ s('body').style.color = 'white';
 s('html').style.background = 'black';
 s('body').style.background = 'black';
 
- notclick('html', 0, false);
+ /* notclick('html', 0, false);
  notclick('html', 1, false);
- notclick('html', 2, false);
+ notclick('html', 2, false); */
 
 mod_loader.init();
 mod_hall.init();
-/* mod_session.init(); */
+mod_session.init();
 mod_icon.init();
 mod_footer.init();
 
@@ -44,6 +44,18 @@ function rr(){
 			data.movil = true;
 
 		}
+
+    /* -------------------------------------------------------------------------- */
+		/* -------------------------------------------------------------------------- */
+
+    if(session_state){
+
+      s('.main-content-session').style.height = (data.lastH-60)+'px';
+      
+    }
+
+    /* -------------------------------------------------------------------------- */
+		/* -------------------------------------------------------------------------- */
 
 		console.log('movil ->'+data.movil);
 
