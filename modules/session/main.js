@@ -64,77 +64,7 @@ var mod_session = {
 
             <div class='fix main-content-session'>
 
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-              servicios<br>
-
+              `+session_info+`
 
             </div>
 

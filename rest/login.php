@@ -25,7 +25,9 @@ for($i=0;$i<l($data['clientes']);$i++){
       $json_res['content'] = $data['clientes'][$i];
 
       session_start();
+
       $_SESSION['nexodev-name'] = ''.$json_res['content']['nombre'];
+      $_SESSION['nexodev-email'] = ''.$json_res['content']['email'];
 
   }
 
