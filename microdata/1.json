@@ -1,0 +1,24 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Platzi",
+  "url": "https://platzi.com/",
+  "description": "Aprende de expertos en programación, diseño, marketing, startups, video y web. Suscríbete hoy.",
+  "foundingDate": "2013-01-01",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "John Freddy Vega"
+    },
+    {
+      "@type": "Person",
+      "name": "Christian Van Der Henst"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/platzi/",
+    "https://twitter.com/Platzi",
+    "https://www.youtube.com/channel/UC55-mxUj5Nj3niXFReG44OQ",
+    "https://www.linkedin.com/school/2822346"
+  ]
+}
