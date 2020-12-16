@@ -2,7 +2,7 @@
 
 include 'C:/xampp/htdocs/nexodev/modules/util.php';
 
-$data = json_decode(file_get_contents('C:/xampp/htdocs/nexodev/draft/json/nexodev_db.json'), true);
+$data = json_decode(file_get_contents('c:/dd/global_data/json/nexodev/nexodev_db.json'), true);
 
 $json_res = json_decode("{}", true);
 
