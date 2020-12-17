@@ -147,7 +147,7 @@ var mod_session = {
         `);
         s('.login-button').onclick = function(){
 
-          let email = s('.input-login-email').value;
+          let email = s('.input-login-email').value.toLowerCase();
           let pass = s('.input-login-pass').value;
 
           /*
