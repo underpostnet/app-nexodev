@@ -1,6 +1,6 @@
 <?php
 
-include 'C:/xampp/htdocs/nexodev/modules/util.php';
+include 'C:/dd/deploy_area/nexodev/modules/util.php';
 
 $data = json_decode(file_get_contents('c:/dd/global_data/json/nexodev/nexodev_db.json'), true);
 
