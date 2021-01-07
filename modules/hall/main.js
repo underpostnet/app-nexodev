@@ -28,7 +28,7 @@ var mod_hall = {
 
 					<div class='in txt-bajada'>
 
-						Alta Tecnologia al alcance de tus Proyectos.
+						Alta Tecnología al alcance de tus Proyectos.
 
 					</div>
 

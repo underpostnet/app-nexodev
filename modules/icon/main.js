@@ -26,7 +26,7 @@ var mod_icon = {
 
           <div class='body-icon-c'>
 
-            Desarrollo a precision de aplicaciones web/moviles combinando la potencia
+            Desarrollo a precisión de aplicaciones web/móviles combinando la potencia
             de servidores nodejs/express y php/apache.
             Incluye SEO (Search Engine Optimization) y Soporte garantizado.
 
@@ -59,7 +59,7 @@ var mod_icon = {
           <div class='body-icon-c'>
 
             Servicio de hosting para WordPress. Autoadministrable. Acceso a plugins,
-            certificado SLL gratuito, integración a correo electronico, y Soporte.
+            certificado SSL gratuito, integración a correo electrónico, y Soporte.
             Renovación anual.
 
           </div>
@@ -92,7 +92,7 @@ var mod_icon = {
 
             Incremente la efectividad de su marca a través del
             envío automatizado de boletines
-            informativos, y asi mantener una
+            informativos, y así mantener una
             comunicación directa y personalizada con sus clientes.
 
           </div>
