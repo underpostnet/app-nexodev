@@ -50,8 +50,8 @@ function rr(){
 
     if(session_state){
 
-      s('.main-content-session').style.height = (data.lastH-60)+'px';
-      
+      s('.main-content-session').style.height = (window.innerHeight-60)+'px';
+
     }
 
     /* -------------------------------------------------------------------------- */

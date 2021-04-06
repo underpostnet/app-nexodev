@@ -17,6 +17,15 @@
 
 }
 
+.main-content-session::-webkit-scrollbar {
+  display: none;
+}
+
+.main-content-session {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 
 
 .topBarSession {
