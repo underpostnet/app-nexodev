@@ -59,11 +59,11 @@ var mod_hall = {
 
 		if(data.movil){
 
-			s('.hall').style.height = '30%';
+			s('.hall').style.height = (window.innerHeight *0.3)+'px';
 
 		}else{
 
-			s('.hall').style.height = '100%';
+			s('.hall').style.height = (window.innerHeight *1)+'px';
 
 		}
 
